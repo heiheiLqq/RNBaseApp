@@ -75,7 +75,7 @@ class CarDetail extends Component {
             actions.getCarInfo({outId,inId,id,detailType});
         });
 
-        
+
 
 
     };
@@ -93,7 +93,7 @@ class CarDetail extends Component {
 
             actions.getCarInfo({outId,inId,id,detailType});
         });
-        
+
 
     };
 
@@ -104,11 +104,11 @@ class CarDetail extends Component {
         if(carData.carName == null || carData.carName ==undefined){
             carData.carName = '';
         }
-        
+
         if(carData.authPrice == null || carData.authPrice ==undefined){
             carData.authPrice=0;
         }
-        
+
         if(carData.lowPrice == null || carData.lowPrice == undefined){
             carData.lowPrice = 0;
         }

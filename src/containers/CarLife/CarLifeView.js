@@ -22,8 +22,8 @@ import {
     CarLife,
     CarShow
 
-} from '../components/car-life-view';
-import Actions from '../actions';
+} from '../../components/car-life-view';
+import Actions from '../../actions';
 let screenWidth = Dimensions.get('window').width
 let screenHeight = Dimensions.get('window').height
 

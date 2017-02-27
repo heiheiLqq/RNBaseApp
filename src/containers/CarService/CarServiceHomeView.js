@@ -9,8 +9,8 @@ import {
 import {
   Header,
   Main,
-} from '../components/home-view';
-import Actions from '../actions';
+} from '../../components/home-view';
+import Actions from '../../actions';
 
 class HomeView extends Component {
     constructor(props) {

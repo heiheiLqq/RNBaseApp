@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import TitleBar from '../components/common/TitleBar';
+import TitleBar from '../../components/common/TitleBar';
 
 import {
     StyleSheet,
@@ -23,8 +23,8 @@ import {
     CarShowBanner,
     SpecialCar,
     ToolBar
-} from '../components/second-view';
-import Actions from '../actions';
+} from '../../components/second-view';
+import Actions from '../../actions';
 
 
 class SecondView extends Component {

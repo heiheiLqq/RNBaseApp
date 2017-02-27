@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import TitleBar from '../components/common/TitleBar';
+import TitleBar from '../../components/common/TitleBar';
 
 import {
     StyleSheet,
@@ -18,8 +18,8 @@ import {
 import {
     Filter,
     SpecialList
-} from '../components/special-car-view';
-import Actions from '../actions';
+} from '../../components/special-car-view';
+import Actions from '../../actions';
 
 
 class SpecialCarView extends Component {

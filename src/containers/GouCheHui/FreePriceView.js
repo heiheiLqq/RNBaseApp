@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import TitleBar from '../components/common/TitleBar';
+import TitleBar from '../../components/common/TitleBar';
 import Drawer from 'react-native-drawer'
 
 import {
@@ -22,8 +22,8 @@ import {
     Collection,
     BrandFilter,
     OtherFilter
-} from '../components/free-price-view';
-import Actions from '../actions';
+} from '../../components/free-price-view';
+import Actions from '../../actions';
 
 let screenWidth = Dimensions.get('window').width
 let screenHeight = Dimensions.get('window').height

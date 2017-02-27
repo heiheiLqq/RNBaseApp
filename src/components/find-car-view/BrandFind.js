@@ -90,7 +90,7 @@ class BrandFind extends Component {
         ];
     }
 
-    
+
 
     //品牌点击
     selectBrand=(arr)=>{
@@ -105,11 +105,11 @@ class BrandFind extends Component {
             var id = arr[0];
 
             actions.getModalSource({id});
-        
+
         });
 
     }
-    
+
 
     render(){
 
@@ -131,9 +131,9 @@ class BrandFind extends Component {
             rowIDs.push(brand[i])
 
         }
-        
 
-        
+
+
         return(
                 <ListView//创建表，并设置返回section和cell的方法
                     dataSource={this.dataSource.cloneWithRowsAndSections(Arr,sectionIDs,rowIDs)}
@@ -141,8 +141,6 @@ class BrandFind extends Component {
                     renderSectionHeader={this.renderSectionHeader}
                     renderHeader={this.renderHeader }
                 />
-                
-
 
         )
 
@@ -150,13 +148,13 @@ class BrandFind extends Component {
 
     }
     componentDidMount(){
-        
+
     }
     //返回头部视图
     renderHeader(){
 
         var rowWidth = screenWidth/5;
-        
+
         return(
             <View  style={{width:screenWidth,flexDirection:'row',flexWrap:'wrap',height:160}}>
                 {

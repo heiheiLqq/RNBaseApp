@@ -8,9 +8,9 @@ import {
 } from 'react-native';
 import {
   Main
-} from '../components/broswer-view';
-import TitleBar from '../components/common/TitleBar';
-import Actions from '../actions';
+} from '../../components/broswer-view';
+import TitleBar from '../../components/common/TitleBar';
+import Actions from '../../actions';
 
 class BroswerView extends Component {
   handleBack = ()=>{

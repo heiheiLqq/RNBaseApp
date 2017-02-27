@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 
-import App from './containers/App';
+import App from './containers/Base/App';
 import configureStore from './store/configureStore';
 
 class Root extends Component {

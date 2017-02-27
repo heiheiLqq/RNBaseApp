@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import TitleBar from '../components/common/TitleBar';
+import TitleBar from '../../components/common/TitleBar';
 
 import {
     StyleSheet,
@@ -26,8 +26,8 @@ import {
     Condition,
     Brand,
     
-} from '../components/find-car-view';
-import Actions from '../actions';
+} from '../../components/find-car-view';
+import Actions from '../../actions';
 let screenWidth = Dimensions.get('window').width
 let screenHeight = Dimensions.get('window').height
 

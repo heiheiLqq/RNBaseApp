@@ -1,5 +1,5 @@
 import * as types from '../constants/ActionTypes';
-import * as HomviewActions from '../actions/HomeviewActions';
+import * as HomviewActions from '../actions/CarServiceActions';
 
 function selectedSubreddit(state = 'reactjs', action) {
     switch (action.type) {

@@ -9,8 +9,8 @@ import {
 import {
     Header,
     Main,
-} from '../components/login-view';
-import Actions from '../actions';
+} from '../../components/login-view';
+import Actions from '../../actions';
 
 class LoginView extends Component {
 

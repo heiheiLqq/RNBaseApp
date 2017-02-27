@@ -1,7 +1,7 @@
-import * as  navigationActions from './navigation';
+import * as  MainTabsActions from './MainTabsAction';
 import * as  LoginViewActions from './LoginViewActions';
-import * as  HomeviewActions from './HomeviewActions';
-import * as  SencondViewAction from './SencondViewAction';
+import * as  CarServiceActions from './CarServiceActions';
+import * as  SencondViewAction from './GouCheHuiAction';
 import * as  CarDetailAction from './CarDetailAction';
 
 import * as  FindCarAction from './FindCarAction';
@@ -11,9 +11,9 @@ import * as  CarLifeAction from './CarLifeAction';
 
 import * as SpecialCarAction from './SpecialCarAction'
 export default {
-    ...navigationActions,
+    ...MainTabsActions,
     ...LoginViewActions,
-    ...HomeviewActions,
+    ...CarServiceActions,
     ...SencondViewAction,
     ...CarDetailAction,
     ...FindCarAction,
